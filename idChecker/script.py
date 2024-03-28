@@ -15,7 +15,7 @@ class Person:
 def get_user_info():
     age = int(input("What's your age: "))
     weight = float(input("What's your weight: "))
-    height = float(input("What's your height: "))
+    height = str(input("What's your height: "))
     first_name = input("What's your first name: ")
     last_name = input("What's your last name: ")
     return age, weight, height, first_name, last_name
